@@ -114,7 +114,7 @@
           <form name="addProduct" action="/addProduct/Edit/<%=addProduct._id%>" method="post">
             Name: <input name="Name" id="Name" style="color: black;" value="<%=addProduct.Name%>"/><br/>
             Description: <textarea name="description" id="description" style="color: black;" ></textarea><br/>
-            Image: <input type="file" id="myfile" value="<%=addProduct.image%>" name="image"><br/>
+            Image: <input type="file" id="myfile" title="<%=addProduct.image%>"  value="<%=addProduct.image%>" name="image"><br/>
 
             <input type="submit" value="Save" class="btn btn-primary btn-lg"></input>
             </form>
