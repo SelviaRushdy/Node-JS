@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'NodeJSitworx'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B253FD55B5BD4C14B17297D37E6CE7C7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DBB8206CF8B641A683A2A63B9CF07743 }}
           package: .
