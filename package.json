@@ -232,11 +232,10 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "debug": "nodemon app.js",
     "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
