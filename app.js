@@ -14,7 +14,7 @@ const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 
-const port=server.listen(process.env.PORT || 3000);
+const port=process.env.PORT || 3000;
 const app=express();
 
 app.use(morgan('combined'));
@@ -51,6 +51,6 @@ app.get('/',(req,res)=>{
 })
 
 
-app.listen(port,()=>{
+app.listen(port,'0.0.0.0',()=>{
     console.log(`Listening to port${chalk.green(port)}`);
 })
