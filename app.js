@@ -14,7 +14,7 @@ const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 
-const port=process.env.port || 5000;
+const port=process.env.port || 3000;
 const app=express();
 
 app.use(morgan('combined'));
