@@ -51,6 +51,6 @@ app.get('/',(req,res)=>{
 })
 
 
-app.listen(port,'0.0.0.0',()=>{
+app.listen(port,()=>{
     console.log(`Listening to port${chalk.green(port)}`);
 })
